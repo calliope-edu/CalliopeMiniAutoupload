@@ -1,0 +1,11 @@
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\bin\Release\CalliopeMiniUploader.exe.config
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\bin\Release\CalliopeMiniUploader.exe
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\bin\Release\CalliopeMiniUploader.pdb
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\Microsoft.CalliopeMini.LicenseDialog.resources
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\Microsoft.CalliopeMini.MainForm.resources
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\Microsoft.CalliopeMini.Properties.Resources.resources
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\Microsoft.CalliopeMini.Settings.resources
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\CodeTheCalliopeMini.csproj.GenerateResource.cache
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\CodeTheCalliopeMini.csproj.CoreCompileInputs.cache
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\CalliopeMiniUploader.exe
+D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Release\CalliopeMiniUploader.pdb
