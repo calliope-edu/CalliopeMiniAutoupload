@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -193,7 +193,17 @@ namespace Microsoft.CalliopeMini
                     try
                     {
                         var trg = System.IO.Path.Combine(drive, "firmware.hex");
-                        File.Copy(file, trg, true);
+
+                        //File.Copy(file, trg, true); // File.Copy() is not working after Windows 10/11 Update
+
+                        var fs1 = new FileStream(file, FileMode.Open, FileAccess.Read);
+
+                        var fs2 = new FileStream(trg, FileMode.Create);
+
+                        fs1.CopyTo(fs2);
+
+                        fs2.Close(); fs1.Close();
+
                     }
                     catch (IOException) { }
                     catch (NotSupportedException) { }
