@@ -1,4 +1,4 @@
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -48,7 +48,7 @@ namespace Microsoft.CalliopeMini
             var downloads = KnownFoldersNativeMethods.GetDownloadPath();
             if (downloads == null)
             {
-                this.updateStatus("oops, can't find the `Downloads` folder. Please specify in settings.");
+                this.updateStatus("oops, der `Downloads` Ordner kann nicht gefunden werden. Bitte gibt einen Pfad in den Einstellungen an.");
                 return;
             }
 
@@ -62,8 +62,8 @@ namespace Microsoft.CalliopeMini
 
         private void waitingForHexFileStatus()
         {
-            this.updateStatus("waiting for .hex file...");
-            this.trayIcon.ShowBalloonTip(3000, "ready...", "waiting for .hex file...", ToolTipIcon.None);
+            this.updateStatus("Warte auf .hex-Datei...");
+            this.trayIcon.ShowBalloonTip(3000, "Bereit...", "Warte auf .hex-Datei...", ToolTipIcon.None);
         }
 
         static bool checkTOU()
@@ -278,6 +278,11 @@ namespace Microsoft.CalliopeMini
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.openEditor();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

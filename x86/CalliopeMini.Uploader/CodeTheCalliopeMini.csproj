@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Microsoft.CalliopeMini</RootNamespace>
     <AssemblyName>CalliopeMiniUploader</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -123,12 +123,8 @@
     <None Include="Resources\MSR-LA - 2576.rtf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon %281%29.ico" />
-    <Content Include="favicon-32x32.ico" />
     <Content Include="favicon.ico" />
-    <Content Include="webp_net_resizeimage_0Rf_icon.ico" />
-    <Content Include="webp_net_resizeimage_6AT_icon.ico" />
-    <EmbeddedResource Include="CalliopeMini.red.png" />
+    <EmbeddedResource Include="CalliopeMini.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
