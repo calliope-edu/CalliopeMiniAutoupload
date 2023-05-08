@@ -143,13 +143,13 @@ namespace Microsoft.CalliopeMini
                     }
                     if (drives.Count == 0)
                     {
-                        this.updateStatus("no board found");
-                        this.trayIcon.ShowBalloonTip(3000, "cancelled uploading...", "no board found", ToolTipIcon.None);
+                        this.updateStatus("Kein mini gefunden");
+                        this.trayIcon.ShowBalloonTip(3000, "Kopieren abgebrochen...", "Kein mini gefunden", ToolTipIcon.None);
                         return;
                     }
 
-                    this.updateStatus("uploading .hex file");
-                    this.trayIcon.ShowBalloonTip(3000, "uploading...", "uploading .hex file", ToolTipIcon.None);
+                    this.updateStatus("kopiere .hex Datei");
+                    this.trayIcon.ShowBalloonTip(3000, "Kopiere...", "Kopiere .hex Datei", ToolTipIcon.None);
 
                     // copy to all boards
                     copyFirmware(info.FullName, drives);

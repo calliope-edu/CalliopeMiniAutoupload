@@ -6,7 +6,7 @@
    <Modules>
     <Module Name="calliopeminiuploader.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Signieren Sie "'CalliopeMiniUploader.exe'" mit einem Schlüssel mit starkem Namen.</Issue>
       </Message>
      </Messages>
@@ -17,7 +17,7 @@
          <Members>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="LicenseDialog.Designer.cs" Line="52">Die Methode "'LicenseDialog.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Accept".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="LicenseDialog.Designer.cs" Line="82">Die Methode "'LicenseDialog.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Calliope mini auto uploader terms of use".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="LicenseDialog.Designer.cs" Line="63">Die Methode "'LicenseDialog.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Exit".</Issue>
@@ -30,10 +30,10 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="22">Die Methode "'MainForm.MainForm()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "v, .".</Issue>
             </Message>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="22">Da das Verhalten von 'int.ToString()' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'MainForm.MainForm()' durch einen Aufruf von 'int.ToString(IFormatProvider)'. Wenn das Ergebnis von 'int.ToString(IFormatProvider)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo.CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo.InvariantCulture'" an.</Issue>
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="22">Da das Verhalten von 'int.ToString()' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'MainForm.MainForm()' durch einen Aufruf von 'int.ToString(IFormatProvider)'. Wenn das Ergebnis von 'int.ToString(IFormatProvider)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo.CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo.InvariantCulture'" an.</Issue>
             </Message>
@@ -41,7 +41,7 @@
           </Member>
           <Member Name="#copyFirmware(System.String,System.Collections.Generic.List`1&lt;System.String&gt;)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="Objekte verwerfen, bevor Bereich verloren geht" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="Objekte verwerfen, bevor Bereich verloren geht" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="DependsOnFix">
              <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="199">Rufen Sie in der 'MainForm.copyFirmware(string, List&lt;string&gt;)'-Methode System.IDisposable.Dispose für das Objekt "'fs1'" auf, bevor alle Verweise darauf außerhalb des gültigen Bereichs liegen.</Issue>
              <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="201">Rufen Sie in der 'MainForm.copyFirmware(string, List&lt;string&gt;)'-Methode System.IDisposable.Dispose für das Objekt "'fs2'" auf, bevor alle Verweise darauf außerhalb des gültigen Bereichs liegen.</Issue>
             </Message>
@@ -49,14 +49,14 @@
           </Member>
           <Member Name="#handleFile(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="infoName" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+            <Message Id="infoName" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="120">"'MainForm.handleFile(string)'" deklariert die Variable "'infoName'" vom Typ "'string'", die nie verwendet oder lediglich zugewiesen wird. Verwenden Sie diese Variable, oder entfernen Sie sie.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.Designer.cs" Line="92">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Automatisches kopieren von .hex Dateien.".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.Designer.cs" Line="151">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Calliope mini auto uploader".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.Designer.cs" Line="128">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Editoren".</Issue>
@@ -67,27 +67,27 @@
           </Member>
           <Member Name="#openEditor()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="35">Ändern Sie "'MainForm.openEditor()'", damit eine spezifischere Ausnahme als "'Exception'" abgefangen wird, oder lösen Sie die Ausnahme erneut aus.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="33">Der this-Parameter (oder "Me" in Visual Basic) von 'MainForm.openEditor()' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodenkörper oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#openWebsite()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="41">Ändern Sie "'MainForm.openWebsite()'", damit eine spezifischere Ausnahme als "'Exception'" abgefangen wird, oder lösen Sie die Ausnahme erneut aus.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="39">Der this-Parameter (oder "Me" in Visual Basic) von 'MainForm.openWebsite()' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodenkörper oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SettingsLabel_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="Objekte verwerfen, bevor Bereich verloren geht" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="Objekte verwerfen, bevor Bereich verloren geht" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="DependsOnFix">
              <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="MainForm.cs" Line="267">Rufen Sie in der 'MainForm.SettingsLabel_LinkClicked(object, LinkLabelLinkClickedEventArgs)'-Methode System.IDisposable.Dispose für das Objekt "'settings'" auf, bevor alle Verweise darauf außerhalb des gültigen Bereichs liegen.</Issue>
             </Message>
            </Messages>
@@ -98,14 +98,14 @@
          <Members>
           <Member Name="#CustomCopyPath" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Da das Feld "'Settings.CustomCopyPath'" außerhalb des deklarierenden Typs sichtbar ist, ändern Sie dessen Zugriff in "private", und fügen Sie eine Eigenschaft hinzu, die den gleichen Zugriff wie derzeit das Feld besitzt, um Zugriff auf diese bereitzustellen.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="Settings.Designer.cs" Line="64">Die Methode "'Settings.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Einstellungen".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="Settings.Designer.cs" Line="50">Die Methode "'Settings.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Pfad".</Issue>
             </Message>
@@ -113,7 +113,7 @@
           </Member>
           <Member Name="#label1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2023-04-28 10:39:50Z" FixCategory="NonBreaking">
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2023-05-08 16:31:01Z" FixCategory="NonBreaking">
              <Issue Certainty="75" Level="Warning" Path="D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader" File="Settings.cs" Line="28">'Settings.label1_Click(object, EventArgs)' scheint keine öffentlichen oder geschützten Upstreamaufrufer aufzuweisen.</Issue>
             </Message>
            </Messages>
