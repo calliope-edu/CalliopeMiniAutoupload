@@ -14,6 +14,8 @@ namespace Microsoft.CalliopeMini
     {
         FileSystemWatcher watcher;
         private string customcopypath = "";
+        //private string customDownloadspath = "";
+        private string downloads;
 
         public MainForm()
         {
@@ -22,10 +24,19 @@ namespace Microsoft.CalliopeMini
             this.versionLabel.Text = "v" + v.Major + "." + v.Minor;
         }
 
+        public void ReloadFileWatch(string path)
+        {
+            customcopypath = path;
+            initializeFileWatch();
+        }
+
+
         private void MainForm_Load(object sender, EventArgs e)
         {
             this.initializeFileWatch();
-            customcopypath = (string)Application.UserAppDataRegistry.GetValue("CustomDirectory", "");
+            //customcopypath = (string)Application.UserAppDataRegistry.GetValue("CustomDirectory", "");
+            //customDownloadspath = (string)Application.UserAppDataRegistry.GetValue("CustomDownloadsDirectory", "");
+            
             // this.openEditor();
         }
 
@@ -43,10 +54,19 @@ namespace Microsoft.CalliopeMini
 
         private void initializeFileWatch()
         {
-         //   if (!checkTOU()) return;
+            //   if (!checkTOU()) return;
+            customcopypath = (string)Application.UserAppDataRegistry.GetValue("CustomDirectory", "");
 
-            var downloads = KnownFoldersNativeMethods.GetDownloadPath();
-            if (downloads == null)
+            if (!String.IsNullOrEmpty(customcopypath) && Directory.Exists(customcopypath))
+            {
+                downloads = customcopypath;
+            }
+            else
+            {
+                downloads = KnownFoldersNativeMethods.GetDownloadPath();
+            }
+
+            if (String.IsNullOrEmpty(downloads) || !Directory.Exists(downloads))
             {
                 this.updateStatus("oops, der `Downloads` Ordner kann nicht gefunden werden. Bitte gibt einen Pfad in den Einstellungen an.");
                 return;
@@ -62,8 +82,8 @@ namespace Microsoft.CalliopeMini
 
         private void waitingForHexFileStatus()
         {
-            this.updateStatus("Warte auf .hex-Datei...");
-            this.trayIcon.ShowBalloonTip(3000, "Bereit...", "Warte auf .hex-Datei...", ToolTipIcon.None);
+            this.updateStatus($"Warte auf .hex-Datei in {downloads} ...");
+            this.trayIcon.ShowBalloonTip(3000, "Bereit...", $"Warte auf .hex-Datei in {downloads} ...", ToolTipIcon.None);
         }
 
         static bool checkTOU()
@@ -137,10 +157,10 @@ namespace Microsoft.CalliopeMini
                     {
                         drives.Add(d.RootDirectory.FullName);
                     }
-                    if (!String.IsNullOrEmpty(customcopypath) && Directory.Exists(customcopypath))
-                    {
-                        drives.Add(customcopypath);
-                    }
+                    //if (!String.IsNullOrEmpty(customcopypath) && Directory.Exists(customcopypath))
+                    //{
+                    //    drives.Add(customcopypath);
+                    //}
                     if (drives.Count == 0)
                     {
                         this.updateStatus("Kein mini gefunden");
@@ -265,6 +285,7 @@ namespace Microsoft.CalliopeMini
         private void SettingsLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             var settings = new Settings(customcopypath);
+   
             settings.ShowDialog();
             customcopypath = settings.CustomCopyPath;
             Application.UserAppDataRegistry.SetValue("CustomDirectory", customcopypath, RegistryValueKind.String);

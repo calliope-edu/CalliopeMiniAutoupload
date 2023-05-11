@@ -46,9 +46,9 @@
             // 
             this.statusLabel.BackColor = System.Drawing.SystemColors.Window;
             this.statusLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusLabel.Location = new System.Drawing.Point(11, 38);
+            this.statusLabel.Location = new System.Drawing.Point(11, 9);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(364, 23);
+            this.statusLabel.Size = new System.Drawing.Size(273, 74);
             this.statusLabel.TabIndex = 1;
             this.statusLabel.Text = "loading...";
             // 

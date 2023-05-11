@@ -12,6 +12,13 @@ D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Debug\CodeTheCalliopeMi
 D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Debug\CalliopeMiniUploader.exe
 D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Debug\CalliopeMiniUploader.pdb
 D:\GIT\Calliope\autoupload_x86\CalliopeMini.Uploader\obj\Debug\Microsoft.CalliopeMini.Properties.Resources.resources
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe.config
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe.manifest
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.application
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.pdb
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe.CodeAnalysisLog.xml
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe.lastcodeanalysissucceeded
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CodeTheCalliopeMini.csproj.AssemblyReference.cache
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CodeTheCalliopeMini.csproj.SuggestedBindingRedirects.cache
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\Microsoft.CalliopeMini.LicenseDialog.resources
@@ -20,10 +27,8 @@ D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\Micro
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\Microsoft.CalliopeMini.Settings.resources
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CodeTheCalliopeMini.csproj.GenerateResource.cache
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CodeTheCalliopeMini.csproj.CoreCompileInputs.cache
-D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe.config
-D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe
-D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.pdb
-D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe.CodeAnalysisLog.xml
-D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Debug\CalliopeMiniUploader.exe.lastcodeanalysissucceeded
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CalliopeMiniUploader.TrustInfo.xml
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CalliopeMiniUploader.exe.manifest
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CalliopeMiniUploader.application
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CalliopeMiniUploader.exe
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Debug\CalliopeMiniUploader.pdb

@@ -22,3 +22,8 @@ D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Release\Cod
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Release\CodeTheCalliopeMini.csproj.CoreCompileInputs.cache
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Release\CalliopeMiniUploader.exe
 D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Release\CalliopeMiniUploader.pdb
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Release\CalliopeMiniUploader.exe.manifest
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\bin\Release\CalliopeMiniUploader.application
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Release\CalliopeMiniUploader.TrustInfo.xml
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Release\CalliopeMiniUploader.exe.manifest
+D:\GIT\Calliope\CalliopeMiniAutoupload\x86\CalliopeMini.Uploader\obj\Release\CalliopeMiniUploader.application
