@@ -4,7 +4,7 @@
   <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="CalliopeMiniUploader" version="0.13.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="CalliopeMiniUploader" version="0.14.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="CalliopeMiniUploader.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,13 +44,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CalliopeMiniUploader.exe" size="70832">
-      <assemblyIdentity name="CalliopeMiniUploader" version="0.13.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="CalliopeMiniUploader" version="0.14.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1Zwi0UvFFptwKWQkcfr3tkxKG0E=</dsig:DigestValue>
+        <dsig:DigestValue>HHYDDidFQMLySP12IP8q9JaX/40=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -82,8 +82,9 @@ namespace Microsoft.CalliopeMini
 
         private void waitingForHexFileStatus()
         {
-            this.updateStatus($"Warte auf .hex-Datei in {downloads} ...");
-            this.trayIcon.ShowBalloonTip(3000, "Bereit...", $"Warte auf .hex-Datei in {downloads} ...", ToolTipIcon.None);
+            this.updateStatus($"Warte auf .hex-Datei ...");
+            this.trayIcon.ShowBalloonTip(3000, "Bereit...", $"Warte auf .hex-Datei ...", ToolTipIcon.None);
+            this.label1.Text = downloads;
         }
 
         static bool checkTOU()
@@ -302,6 +303,11 @@ namespace Microsoft.CalliopeMini
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statusLabel_Click(object sender, EventArgs e)
         {
 
         }
